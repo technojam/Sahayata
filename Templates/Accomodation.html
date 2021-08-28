@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sahayata</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/accod.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">          
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; </span>      
+              <a class="navbar-brand">
+                <img class="logo" src="../Images/Logo1.png" alt="Logo" >
+              </a>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About us</a>
+            <a href="#">Nearest Service Location</a>
+            <a href="#">Stocks and Accomodation</a>
+            <a href="#">Service Helpline Number</a>
+            <a href="#">Nearby Status</a>
+            <a href="#">Missing Identity</a>
+        </div>
+          
+        
+
+        <br><br><br>
+
+        <table>
+            <tr>
+              <th>Name of Center</th>
+              <th>Accomodation</th>
+              <th>Stocks</th>
+              <th>Location</th>
+            </tr>
+            <tr>
+              <td>Help Relief Center</td>
+              <td>50</td>
+              <td>100</td>
+              <td>Alpha-1</td>
+
+            </tr>
+            <tr>
+                <td>Help Relief Center</td>
+                <td>20</td>
+                <td>900</td>
+                <td>Alpha-2</td>
+            </tr>
+            <tr>
+                <td>Gu Emergency Center</td>
+                <td>500</td>
+                <td>1000</td>
+                <td>Galgotias University</td>
+            </tr>
+            <tr>
+                <td>Help Relief Center</td>
+                <td>50</td>
+                <td>100</td>
+                <td>Alpha-1</td>
+            </tr>
+            <tr>
+                <td>Help Relief Center</td>
+                <td>50</td>
+                <td>100</td>
+                <td>Alpha-1</td>
+            </tr>
+            <tr>
+                <td>Help Relief Center</td>
+                <td>50</td>
+                <td>100</td>
+                <td>Alpha-1</td>
+            </tr>
+        </table>
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+              document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+              document.body.style.backgroundColor = "white";
+            }
+        </script>
+
+        
+        
+    </body>
+</html>
