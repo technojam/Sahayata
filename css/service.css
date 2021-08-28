@@ -1,9 +1,13 @@
 .logo{
     display: block;
-    margin-left: auto;
-    margin-right: 800px;
     width: 200px;
     height: 80px;
+  }
+  #logodiv{
+    margin-left: -3vh;
+    margin-right: auto;
+    float: left;
+    overflow: hidden;
   }
   body{
       background-image: linear-gradient(rgb(255,255,255),rgb(82, 193, 245));   
@@ -27,6 +31,10 @@
   tr:nth-child(even) {
       background-color: #dddddd;
     }
+
+h2{
+  text-align: center;
+}   
   
     .sidenav {
       height: 100%;
