@@ -7,16 +7,29 @@
 }
 
 .logo{
+
+  display: block;
+  width: 200px;
+  height: 80px;
+}
+
     display: block;
     width: 200px;
     height: 80px;
 }
+
 
 #logodiv{
   margin-left: -3vh;
   margin-right: auto;
   float: left;
   overflow: hidden;
+
+}
+body{
+    background-image: linear-gradient(rgb(255,255,255),rgb(82, 193, 245));   
+    background-attachment: fixed; 
+
 }
 
 body{
