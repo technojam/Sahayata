@@ -1,0 +1,92 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+<div class="home-intro">
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Sign In</h3>
+				<div class="d-flex justify-content-end social_icon">
+					<span><i class="fab fa-facebook-square"></i></span>
+					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-twitter-square"></i></span>
+				</div>
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="username">
+						
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password">
+					</div>
+					<div class="row align-items-center remember">
+						<input type="checkbox">Remember Me
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Login" class="btn float-right login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Don't have an account?<a href="/Templates/signup.html">Sign Up</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">Forgot your password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+    function randomImage(){
+        var images = [
+        'https://citibeats.com/wp-content/uploads/2018/04/Blog-disasters-2.jpg',
+        'https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/VA%20Top%20things%20to%20bring%20when%20VA%20in%20Disaster%20Zone%20Thomasma-1388040926-edited-1391758923.jpg',
+        'https://mk0habitatforhui6bly.kinstacdn.com/wp-content/uploads/2017/10/natural-disaster-relief-charity-response-emergency.jpg',
+        'https://www.ifrc.org/PageFiles/40846/p13067_large.jpg',
+        'https://www.newworldencyclopedia.org/d/images/thumb/1/1f/LARC-hi.jpg/275px-LARC-hi.jpg',
+        'https://cdn.sanity.io/images/92ui5egz/production/29c0adda1819d4283d3b9b1871f70c9f4e53a4ff-1920x1080.jpg?w=1920&h=1080&auto=format'];
+        var size = images.length;
+        var x = Math.floor(size * Math.random());
+        console.log(x);
+        var element = document.getElementsByClassName('home-intro');
+        console.log(element);
+        element[0].style["background-image"] = "url("+ images[x] + ")"; 
+    }
+
+    document.addEventListener("DOMContentLoaded", randomImage);
+
+
+</script>
+</body>
+</html>
