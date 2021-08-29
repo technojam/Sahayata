@@ -1,0 +1,35 @@
+{
+  "post": [
+    {
+      "id": "2",
+      "title": "post two",
+      "body": "post bodygf",
+      "publishAt": "10-01-2020"
+    },
+    {
+      "id": "4",
+      "title": "post four",
+      "body": "post body",
+      "publishAt": "10-01-2020"
+    },
+    {
+      "title": "post 5",
+      "body": "body for post",
+      "publishAt": "2020-10-21",
+      "id": "eltQpHA"
+    },
+    {
+      "title": "water",
+      "body": "greater noida",
+      "publishAt": "2021-08-05",
+      "id": "0wDzGop"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "shivansh",
+      "email": "dojo@gmail.com"
+    }
+  ]
+}
