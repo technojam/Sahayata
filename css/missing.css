@@ -48,8 +48,25 @@ body{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
+}
+
+#card-deck{
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.col {
+  transition: 0.3s;
+}
+
+.card{
+  width: 55vh;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
   #main {
     transition: margin-left .5s;
     padding: 16px;
